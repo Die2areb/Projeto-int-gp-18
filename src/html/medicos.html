@@ -25,16 +25,20 @@
             <h1>MinhaSaúde</h1>
         </nav>
     </header>
-
+    <section id="titulo">
+        <nav>
+            <div class="titulo">
+                <i class="bi bi-menu-button-wide-fill"></i>
+                Meus Médicos
+            </div> 
+        </nav>
+    </section>
     <div class="iframe">
         <div class="carrosel">
-        <iframe src="frase_do_dia.html" frameborder="0"></iframe>
+            <iframe src="frase_do_dia.html" frameborder="0"></iframe>
         </div>
     </div>
 
-    <section id="titulo">
-        <nav>titulo da pagina</nav>
-    </section>
     <section id="conteudo-esquerdo">
         <nav>NÃO FAZER NADA AQUI</nav>
         <nav>
@@ -43,14 +47,41 @@
     </section>
     <main>
         <section>
-            <h1 id="nometela">
-                AQUI VAI FICAR SEU CÓDIGO
-            </h1>
+            <h1>Meus Médicos</h1>
+            <form>
+                <div class="medico">
+                    <input type="text" id="medico" name="medico" placeholder="medico" required autocomplete="off"><br>
+                    <input type="text" id="especialidade" name="especialidade" placeholder="especialidade" required
+                        autocomplete="off"><br>
+                    <input type="text" id="contato" name="contato" placeholder="contato" required
+                        autocomplete="off"><br>
+                </div>
+                <div class="medico2">
+                    <input type="text" id="medico2" name="medico2" placeholder="medico2" required
+                        autocomplete="off"><br>
+                    <input type="text" id="especialidade2" name="especialidade2" placeholder="especialidade2" required
+                        autocomplete="off"><br>
+                    <input type="text" id="contato2" name="contato2" placeholder="contato2" required
+                        autocomplete="off"><br>
+                </div>
+
+                <div class="medico3">
+                    <input type="text" id="medico3" name="medico3" placeholder="medico3" required
+                        autocomplete="off"><br>
+                    <input type="text" id="especialidade3" name="especialidade3" placeholder="especialidade3" required
+                        autocomplete="off"><br>
+                    <input type="text" id="contato3" name="contato3" placeholder="contato3" required
+                        autocomplete="off"><br>
+                </div>
+
+                <button type="submit">Salvar/Alterar</button>
+            </form>
         </section>
     </main>
-    <section id="conteudo-direito">
-        <aside>NÃO FAZER NADA AQUI</aside>
-    </section>
+    <div>
+        <a href="#"><input type="submit" id="emergencia" name="acao" value="Emergência" /></a>
+        
+    </div>
     <footer>
         <nav>
             <ul id="container">
